@@ -1,0 +1,54 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.cuadrado{
+  border: 1px solid black;
+  margin: 2px;
+  padding: 10px;
+}
+
+.boton{
+  width:30px;
+  height:30px;
+  background-color:#03800b;
+  margin: 5px;
+  padding:10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+
+  text-transform: uppercase;
+
+  font-size:10px;
+  line-height:34px;
+
+  text-align: center;
+
+  -webkit-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.boton:active{
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.boton:hover{
+  opacity: 0.50;
+  -moz-opacity: .50;
+}
+.boton a{
+  color:#fff;
+  text-decoration:none;
+  padding:5px;
+}
+
+.btndanger{
+  font-size:8px;
+  text-align: left;
+  background-color: red;
+  font-weight: bold;
+}

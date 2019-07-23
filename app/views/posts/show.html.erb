@@ -1,0 +1,10 @@
+<div class="cuadrado">
+  <h1><%= @post.title %></h1>
+  <p><%= @post.content %></p>
+  <div class="boton">
+    <%= link_to 'Edit' , edit_path(@post) %>
+  </div>
+  <div class="boton btndanger">
+    <%= link_to 'Remove' , @post, method: :delete %>
+  </div>
+</div>

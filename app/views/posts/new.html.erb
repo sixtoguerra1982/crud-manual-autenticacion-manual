@@ -1,0 +1,10 @@
+<div class="cuadrado">
+  <%= form_with model: @post ,local: true do |f| %>
+    <%= f.label :title, "Titulo del Post" %><br>
+    <%= f.text_field :title %>
+    <br>
+    <%= f.label :content, "Contenido del Post" %><br>
+    <%= f.text_area :content %><br>
+    <%= f.submit "Enviar" %>
+  <% end %>
+</div>
